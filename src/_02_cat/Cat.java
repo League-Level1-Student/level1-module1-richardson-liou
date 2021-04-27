@@ -4,7 +4,9 @@ package _02_cat;
  *    Level 1
  */
 
-		/* Do the following things without changing the Cat class 
+
+
+/* Do the following things without changing the Cat class 
 	
 		* Create a CatRunner class in the cat package, with a main method that creates a Cat object.
 
@@ -15,7 +17,6 @@ package _02_cat;
 		* 3. Kill the Cat! 
 		
 		*/
-
 
 public class Cat {
 
@@ -45,6 +46,9 @@ public class Cat {
 			System.out.println("that's overkill yo!");
 		else
 			System.out.println("DEAD CAT :(");
+	}
+	public static void main(String[] args) {
+		Cat('Johny');
 	}
 
 
